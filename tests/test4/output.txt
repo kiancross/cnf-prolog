@@ -1,0 +1,7 @@
+| ?- or(or(not(or(p,q)),r),or(s,t))
+yes
+| ?- 
+no
+| ?- and(or(or(not(p),r),or(s,t)),or(or(not(q),r),or(s,t)))
+yes
+| ?- 
